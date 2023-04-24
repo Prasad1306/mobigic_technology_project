@@ -1,0 +1,32 @@
+{
+  "port": 3000,
+  "hostAddress": "localhost:3000",
+  "databaseHost": "localhost",
+  "databasePort": "27017",
+  "databaseName": "node-dev",
+  "jwtsecret": "nodejwt",
+  "jwtresetsecret": "nodejwt",
+  "jwtOptions": {
+    "expiresIn": "24h"
+  },
+  "swaggerDefinition": {
+    "info": {
+      "title": "nodeData",
+      "version": "2.0",
+      "description": "nodeData- API Docs"
+    },
+    "basePath": "/api/v1",
+    "securityDefinitions": {
+      "tokenauth": {
+        "type": "apiKey",
+        "name": "Authorization",
+        "in": "header"
+      }
+    }
+  },
+  "cloudinary": {
+    "cloud_name": "dlmvvy47r",
+    "api_key": "724883833926428",
+    "api_secret": "LYmaLWDATbk4oaLepvor85zpw7g"
+  }
+}
